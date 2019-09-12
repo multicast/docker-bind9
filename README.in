@@ -1,0 +1,37 @@
+# bind9
+
+![Pulls](https://img.shields.io/docker/pulls/=NAMESPACE=/runit-stretch.svg)
+![Stars](https://img.shields.io/docker/stars/=NAMESPACE=/runit-stretch.svg)
+
+The [Debian](https://debian.org/) [Stretch](https://wiki.debian.org/DebianStretch)
+[container image](https://hub.docker.com/r/=NAMESPACE=/stretch/) with few handy
+utilities, utf8 locales and runit
+
+## Quick Usage
+
+Run prebuilt:
+
+    $ docker run --rm -ti =NAMESPACE=/runit-stretch bash
+
+Or you can clone & build, run `bash` to explore:
+
+    $ git clone https://github.com/multicast/docker-runit-stretch
+    $ cd docker-runit-stretch
+    $ docker build -t runit-stretch .
+    $ docker run --rm -ti runit-stretch bash
+
+Since the image is intended to be used as base image, I suppose more common usage would be in your own `Dockerfile` in the form:
+
+    FROM =NAMESPACE=/runit-stretch:latest
+    ...
+
+## Build-time options
+
+The same as the parent image [=NAMESPACE=/base-stretch](https://hub.docker.com/r/=NAMESPACE=/stretch/).
+
+## Run-time options
+
+The same as the parent image [=NAMESPACE=/base-stretch](https://hub.docker.com/r/=NAMESPACE=/stretch/).
+
+# Packages
+
