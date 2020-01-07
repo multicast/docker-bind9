@@ -1,37 +1,25 @@
-# bind9
+# =IMAGE=
 
-![Pulls](https://img.shields.io/docker/pulls/=NAMESPACE=/runit-stretch.svg)
-![Stars](https://img.shields.io/docker/stars/=NAMESPACE=/runit-stretch.svg)
+![Pulls](https://img.shields.io/docker/pulls/=NAMESPACE=/=IMAGE=.svg)
+![Stars](https://img.shields.io/docker/stars/=NAMESPACE=/=IMAGE=.svg)
 
-The [Debian](https://debian.org/) [Stretch](https://wiki.debian.org/DebianStretch)
-[container image](https://hub.docker.com/r/=NAMESPACE=/stretch/) with few handy
+The [Debian](https://debian.org/) [Buster](https://wiki.debian.org/DebianBuster)
+[container image](https://hub.docker.com/r/=NAMESPACE=/=IMAGE=/) with few handy
 utilities, utf8 locales and runit
+
+This image is built daily and in case of any security update, the list of
+packages is updated, commited and this triggers update of docker-hub image
+and all dependant images.
 
 ## Quick Usage
 
-Run prebuilt:
+Run prebuilt and explore:
 
-    $ docker run --rm -ti =NAMESPACE=/runit-stretch bash
+    $ docker run --rm -ti =NAMESPACE=/=IMAGE= bash
 
-Or you can clone & build, run `bash` to explore:
+Typically you want to provide bind config files and mount them:
 
-    $ git clone https://github.com/multicast/docker-runit-stretch
-    $ cd docker-runit-stretch
-    $ docker build -t runit-stretch .
-    $ docker run --rm -ti runit-stretch bash
-
-Since the image is intended to be used as base image, I suppose more common usage would be in your own `Dockerfile` in the form:
-
-    FROM =NAMESPACE=/runit-stretch:latest
-    ...
-
-## Build-time options
-
-The same as the parent image [=NAMESPACE=/base-stretch](https://hub.docker.com/r/=NAMESPACE=/stretch/).
-
-## Run-time options
-
-The same as the parent image [=NAMESPACE=/base-stretch](https://hub.docker.com/r/=NAMESPACE=/stretch/).
+    $ docker run --rm -d -v /volumes/bind9:/etc/bind:Z =NAMESPACE=/=IMAGE=
 
 # Packages
 
