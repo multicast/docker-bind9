@@ -112,7 +112,7 @@ Typically you want to provide bind config files and mount them:
     ii  libisc1100:amd64           1:9.11.5.P4+dfsg-5.1+deb10u1 amd64        ISC Shared Library used by BIND
     ii  libisccc161:amd64          1:9.11.5.P4+dfsg-5.1+deb10u1 amd64        Command Channel Library used by BIND
     ii  libisccfg163:amd64         1:9.11.5.P4+dfsg-5.1+deb10u1 amd64        Config File Handling Library used by BIND
-    ii  libjson-c3:amd64           0.12.1+ds-2                  amd64        JSON manipulation library - shared library
+    ii  libjson-c3:amd64           0.12.1+ds-2+deb10u1          amd64        JSON manipulation library - shared library
     ii  libk5crypto3:amd64         1.17-3                       amd64        MIT Kerberos runtime libraries - Crypto Library
     ii  libkeyutils1:amd64         1.6-6                        amd64        Linux Key Management Utilities (library)
     ii  libkrb5-3:amd64            1.17-3                       amd64        MIT Kerberos runtime libraries
