@@ -31,7 +31,7 @@ Typically you want to provide bind config files and mount them:
     ii  adduser                    3.118                        all          add and remove users and groups
     ii  apt                        1.8.2.1                      amd64        commandline package manager
     ii  apt-utils                  1.8.2.1                      amd64        package management related utility programs
-    ii  base-files                 10.3+deb10u5                 amd64        Debian base system miscellaneous files
+    ii  base-files                 10.3+deb10u6                 amd64        Debian base system miscellaneous files
     ii  base-passwd                3.5.46                       amd64        Debian base system master password and group files
     ii  bash                       5.0-4                        amd64        GNU Bourne Again SHell
     ii  bind9                      1:9.11.5.P4+dfsg-5.1+deb10u2 amd64        Internet Domain Name Server
