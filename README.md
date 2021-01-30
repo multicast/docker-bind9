@@ -38,7 +38,7 @@ Typically you want to provide bind config files and mount them:
     ii  bind9-host                 1:9.11.5.P4+dfsg-5.1+deb10u2 amd64        DNS lookup utility (deprecated)
     ii  bind9utils                 1:9.11.5.P4+dfsg-5.1+deb10u2 amd64        Utilities for BIND
     ii  bsdutils                   1:2.33.1-0.1                 amd64        basic utilities from 4.4BSD-Lite
-    ii  ca-certificates            20200601~deb10u1             all          Common CA certificates
+    ii  ca-certificates            20200601~deb10u2             all          Common CA certificates
     ii  coreutils                  8.30-3                       amd64        GNU core utilities
     ii  cron                       3.0pl1-134+deb10u1           amd64        process scheduling daemon
     ii  curl                       7.64.0-4+deb10u1             amd64        command line tool for transferring data with URL syntax
@@ -212,7 +212,7 @@ Typically you want to provide bind config files and mount them:
     ii  sysuser-helper             1.3.3                        all          dh-sysuser implementation detail
     ii  sysvinit-utils             2.93-8                       amd64        System-V-like utilities
     ii  tar                        1.30+dfsg-6                  amd64        GNU version of the tar archiving utility
-    ii  tzdata                     2020e-0+deb10u1              all          time zone and daylight-saving time data
+    ii  tzdata                     2021a-0+deb10u1              all          time zone and daylight-saving time data
     ii  ucf                        3.0038+nmu1                  all          Update Configuration File(s): preserve user changes to config files
     ii  unzip                      6.0-23+deb10u1               amd64        De-archiver for .zip files
     ii  util-linux                 2.33.1-0.1                   amd64        miscellaneous system utilities
