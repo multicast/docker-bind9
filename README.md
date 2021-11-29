@@ -106,7 +106,7 @@ Typically you want to provide bind config files and mount them:
     ii  libgpg-error0:amd64        1.35-1                       amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64     1.17-3+deb10u3               amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed4:amd64          3.4.1-1+deb10u1              amd64        low level cryptographic library (public-key cryptos)
-    ii  libicu63:amd64             63.1-6+deb10u1               amd64        International Components for Unicode
+    ii  libicu63:amd64             63.1-6+deb10u2               amd64        International Components for Unicode
     ii  libidn2-0:amd64            2.0.5-1+deb10u1              amd64        Internationalized domain names (IDNA2008/TR46) library
     ii  libirs161:amd64            1:9.11.5.P4+dfsg-5.1+deb10u6 amd64        DNS Shared Library used by BIND
     ii  libisc1100:amd64           1:9.11.5.P4+dfsg-5.1+deb10u6 amd64        ISC Shared Library used by BIND
