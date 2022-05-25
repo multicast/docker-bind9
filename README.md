@@ -50,7 +50,7 @@ Typically you want to provide bind config files and mount them:
     ii  diffutils                  1:3.7-3                      amd64        File comparison utilities
     ii  dns-root-data              2019031302                   all          DNS root data including root zone and DNSSEC key
     ii  dnsutils                   1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        Clients provided with BIND
-    ii  dpkg                       1.19.7                       amd64        Debian package management system
+    ii  dpkg                       1.19.8                       amd64        Debian package management system
     ii  dumb-init                  1.2.2-1.1                    amd64        wrapper script which proxies signals to a child
     ii  e2fsprogs                  1.44.5-1+deb10u3             amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                  1.18.10-1                    all          store /etc in git, mercurial, bzr or darcs
