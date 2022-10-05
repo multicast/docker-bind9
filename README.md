@@ -34,9 +34,9 @@ Typically you want to provide bind config files and mount them:
     ii  base-files                 10.3+deb10u13                amd64        Debian base system miscellaneous files
     ii  base-passwd                3.5.46                       amd64        Debian base system master password and group files
     ii  bash                       5.0-4                        amd64        GNU Bourne Again SHell
-    ii  bind9                      1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        Internet Domain Name Server
-    ii  bind9-host                 1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        DNS lookup utility (deprecated)
-    ii  bind9utils                 1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        Utilities for BIND
+    ii  bind9                      1:9.11.5.P4+dfsg-5.1+deb10u8 amd64        Internet Domain Name Server
+    ii  bind9-host                 1:9.11.5.P4+dfsg-5.1+deb10u8 amd64        DNS lookup utility (deprecated)
+    ii  bind9utils                 1:9.11.5.P4+dfsg-5.1+deb10u8 amd64        Utilities for BIND
     ii  bsdutils                   1:2.33.1-0.1                 amd64        basic utilities from 4.4BSD-Lite
     ii  ca-certificates            20200601~deb10u2             all          Common CA certificates
     ii  coreutils                  8.30-3                       amd64        GNU core utilities
@@ -49,7 +49,7 @@ Typically you want to provide bind config files and mount them:
     ii  di                         4.47-1                       amd64        advanced df like disk information utility
     ii  diffutils                  1:3.7-3                      amd64        File comparison utilities
     ii  dns-root-data              2019031302                   all          DNS root data including root zone and DNSSEC key
-    ii  dnsutils                   1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        Clients provided with BIND
+    ii  dnsutils                   1:9.11.5.P4+dfsg-5.1+deb10u8 amd64        Clients provided with BIND
     ii  dpkg                       1.19.8                       amd64        Debian package management system
     ii  dumb-init                  1.2.2-1.1                    amd64        wrapper script which proxies signals to a child
     ii  e2fsprogs                  1.44.5-1+deb10u3             amd64        ext2/ext3/ext4 file system utilities
@@ -74,7 +74,7 @@ Typically you want to provide bind config files and mount them:
     ii  libattr1:amd64             1:2.4.48-4                   amd64        extended attribute handling - shared library
     ii  libaudit-common            1:2.8.4-3                    all          Dynamic library for security auditing - common files
     ii  libaudit1:amd64            1:2.8.4-3                    amd64        Dynamic library for security auditing
-    ii  libbind9-161:amd64         1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        BIND9 Shared Library used by BIND
+    ii  libbind9-161:amd64         1:9.11.5.P4+dfsg-5.1+deb10u8 amd64        BIND9 Shared Library used by BIND
     ii  libblkid1:amd64            2.33.1-0.1                   amd64        block device ID library
     ii  libbz2-1.0:amd64           1.0.6-9.2~deb10u2            amd64        high-quality block-sorting file compressor library - runtime
     ii  libc-bin                   2.28-10+deb10u1              amd64        GNU C Library: Binaries
@@ -88,7 +88,7 @@ Typically you want to provide bind config files and mount them:
     ii  libcurl4:amd64             7.64.0-4+deb10u3             amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64             5.3.28+dfsg1-0.5             amd64        Berkeley v5.3 Database Libraries [runtime]
     ii  libdebconfclient0:amd64    0.249                        amd64        Debian Configuration Management System (C-implementation library)
-    ii  libdns1104:amd64           1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        DNS Shared Library used by BIND
+    ii  libdns1104:amd64           1:9.11.5.P4+dfsg-5.1+deb10u8 amd64        DNS Shared Library used by BIND
     ii  libelf1:amd64              0.176-1.1                    amd64        library to read and write ELF files
     ii  liberror-perl              0.17027-2                    all          Perl module for error/exception handling in an OO-ish way
     ii  libexpat1:amd64            2.2.6-2+deb10u5              amd64        XML parsing C library - runtime library
@@ -108,10 +108,10 @@ Typically you want to provide bind config files and mount them:
     ii  libhogweed4:amd64          3.4.1-1+deb10u1              amd64        low level cryptographic library (public-key cryptos)
     ii  libicu63:amd64             63.1-6+deb10u3               amd64        International Components for Unicode
     ii  libidn2-0:amd64            2.0.5-1+deb10u1              amd64        Internationalized domain names (IDNA2008/TR46) library
-    ii  libirs161:amd64            1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        DNS Shared Library used by BIND
-    ii  libisc1100:amd64           1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        ISC Shared Library used by BIND
-    ii  libisccc161:amd64          1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        Command Channel Library used by BIND
-    ii  libisccfg163:amd64         1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        Config File Handling Library used by BIND
+    ii  libirs161:amd64            1:9.11.5.P4+dfsg-5.1+deb10u8 amd64        DNS Shared Library used by BIND
+    ii  libisc1100:amd64           1:9.11.5.P4+dfsg-5.1+deb10u8 amd64        ISC Shared Library used by BIND
+    ii  libisccc161:amd64          1:9.11.5.P4+dfsg-5.1+deb10u8 amd64        Command Channel Library used by BIND
+    ii  libisccfg163:amd64         1:9.11.5.P4+dfsg-5.1+deb10u8 amd64        Config File Handling Library used by BIND
     ii  libjson-c3:amd64           0.12.1+ds-2+deb10u1          amd64        JSON manipulation library - shared library
     ii  libk5crypto3:amd64         1.17-3+deb10u4               amd64        MIT Kerberos runtime libraries - Crypto Library
     ii  libkeyutils1:amd64         1.6-6                        amd64        Linux Key Management Utilities (library)
@@ -120,7 +120,7 @@ Typically you want to provide bind config files and mount them:
     ii  libldap-2.4-2:amd64        2.4.47+dfsg-3+deb10u7        amd64        OpenLDAP libraries
     ii  libldap-common             2.4.47+dfsg-3+deb10u7        all          OpenLDAP common files for libraries
     ii  liblmdb0:amd64             0.9.22-1                     amd64        Lightning Memory-Mapped Database shared library
-    ii  liblwres161:amd64          1:9.11.5.P4+dfsg-5.1+deb10u7 amd64        Lightweight Resolver Library used by BIND
+    ii  liblwres161:amd64          1:9.11.5.P4+dfsg-5.1+deb10u8 amd64        Lightweight Resolver Library used by BIND
     ii  liblz4-1:amd64             1.8.3-1+deb10u1              amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64             5.2.4-1+deb10u1              amd64        XZ-format compression library
     ii  libmnl0:amd64              1.0.4-2                      amd64        minimalistic Netlink communication library
