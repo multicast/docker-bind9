@@ -148,8 +148,8 @@ Typically you want to provide bind config files and mount them:
     ii  libpython2.7-minimal:amd64 2.7.16-2+deb10u3              amd64        Minimal subset of the Python language (version 2.7)
     ii  libpython2.7-stdlib:amd64  2.7.16-2+deb10u3              amd64        Interactive high-level object-oriented language (standard library, version 2.7)
     ii  libpython3-stdlib:amd64    3.7.3-1                       amd64        interactive high-level object-oriented language (default python3 version)
-    ii  libpython3.7-minimal:amd64 3.7.3-2+deb10u6               amd64        Minimal subset of the Python language (version 3.7)
-    ii  libpython3.7-stdlib:amd64  3.7.3-2+deb10u6               amd64        Interactive high-level object-oriented language (standard library, version 3.7)
+    ii  libpython3.7-minimal:amd64 3.7.3-2+deb10u7               amd64        Minimal subset of the Python language (version 3.7)
+    ii  libpython3.7-stdlib:amd64  3.7.3-2+deb10u7               amd64        Interactive high-level object-oriented language (standard library, version 3.7)
     ii  libreadline7:amd64         7.0-5                         amd64        GNU readline and history libraries, run-time libraries
     ii  librtmp1:amd64             2.4+20151223.gitfa8646d.1-2   amd64        toolkit for RTMP streams (shared library)
     ii  libsasl2-2:amd64           2.1.27+dfsg-1+deb10u2         amd64        Cyrus SASL - authentication abstraction library
@@ -202,8 +202,8 @@ Typically you want to provide bind config files and mount them:
     ii  python3                    3.7.3-1                       amd64        interactive high-level object-oriented language (default python3 version)
     ii  python3-minimal            3.7.3-1                       amd64        minimal subset of the Python language (default python3 version)
     ii  python3-ply                3.11-3                        all          Lex and Yacc implementation for Python3
-    ii  python3.7                  3.7.3-2+deb10u6               amd64        Interactive high-level object-oriented language (version 3.7)
-    ii  python3.7-minimal          3.7.3-2+deb10u6               amd64        Minimal subset of the Python language (version 3.7)
+    ii  python3.7                  3.7.3-2+deb10u7               amd64        Interactive high-level object-oriented language (version 3.7)
+    ii  python3.7-minimal          3.7.3-2+deb10u7               amd64        Minimal subset of the Python language (version 3.7)
     ii  readline-common            7.0-5                         all          GNU readline and history libraries, common files
     ii  runit                      2.1.2-25                      amd64        system-wide service supervision
     ii  runit-helper               2.8.6                         all          dh-runit implementation detail
